@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => git_url, :tag => version}
   
   
-  s.platform  = :ios, "8.0"
+  s.platform  = :osx, "10.10"
 
   s.source_files = source_files
 
